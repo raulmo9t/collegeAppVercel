@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin 'tailwind-scrollbar';
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+scrollbar-button {
+  display: none;
+}
